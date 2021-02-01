@@ -1,0 +1,159 @@
+/* =========================================== */
+    /* bootstrap overrides */
+    /* =========================================== */
+    #s-lg-tabs-container .nav-tabs > li > a,
+    #s-lg-tabs-container .nav-tabs > li > button,
+    #s-lg-tabs-container .nav-pills > li > a,
+    #s-lg-tabs-container .nav-pills > li > button {
+        
+        border: 1px solid transparent;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        background-color: #ffffff;
+        color: #767676;
+        font-weight: bold;
+        padding: 4px 15px;
+    }
+    #s-lg-tabs-container .nav-tabs {
+        border-bottom: 0;
+    }
+    #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+        -webkit-border-radius: 4px 4px 0 0;
+        -moz-border-radius: 4px 4px 0 0;
+        border-radius: 4px 4px 0 0;
+    }
+    #s-lg-tabs-container .nav-tabs > li > a:hover,
+    #s-lg-tabs-container .nav-tabs > li > button:hover,
+    #s-lg-tabs-container .nav-pills > li > a:hover,
+    #s-lg-tabs-container .nav-pills > li > button:hover {
+        
+        border: 1px solid transparent;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        background-color: #ffffff;
+        color: #095d7e;
+    }
+    #s-lg-tabs-container .nav-tabs > .active > a,
+    #s-lg-tabs-container .nav-tabs > .active > button,
+    #s-lg-tabs-container .nav-pills > .active > a,
+    #s-lg-tabs-container .nav-pills > .active > button {
+        color: #095d7e;
+        cursor: default;
+        background-color: #ffffff;
+        
+        border: 1px solid transparent;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        border-bottom-color: transparent;
+        font-weight: bold;
+    }
+    #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a,
+    #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > button {
+        color: #095d7e;
+        cursor: default;
+        background-color: #ffffff;
+        border-bottom-color: transparent;
+    }
+    #s-lg-tabs-container .nav-tabs > .active > a:hover,
+    #s-lg-tabs-container .nav-pills > .active > a:hover,
+    #s-lg-tabs-container .nav-tabs > .active > button:hover,
+    #s-lg-tabs-container .nav-pills > .active > button:hover {
+        color: #095d7e;
+        cursor: pointer;
+        background-color: #ffffff;
+        
+        border: 1px solid transparent;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        border-bottom-color: transparent;
+        font-weight: bold;
+    }
+    #s-lg-tabs-container .nav .dropdown-toggle .caret {
+        border-top-color: #e1e1e1;
+    }
+    #s-lg-tabs-container .nav-tabs button.dropdown-toggle .caret {
+        margin-left: 2px;
+        margin-top: -3px;
+    }
+    #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+        border-radius: 0;
+        padding: 4px 6px 4px 3px;
+        border-left: 1px solid transparent;
+    }
+    #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-drop {
+        border-radius: 0;
+        padding: 4px 6px 0px 3px;
+        border-left: 1px solid transparent;
+        margin-right: 2px;
+    }
+    #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+        border-radius: 0;
+        border-left: 1px solid #bbb;
+        padding: 4px 6px 4px 3px;
+    }
+    #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-drop:hover {
+        border-radius: 0;
+        border-left: 1px solid #bbb;
+        padding: 4px 6px 0px 3px;
+    }
+    #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+    #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover,
+    #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-top-link,
+    #s-lg-tabs-container .nav-tabs > li > button.s-lg-tab-top-link:hover {
+        border-radius: 0;
+        font-weight: bold;
+        padding: 4px 5px 4px 10px;
+    }
+    .nav-tabs > li > a.s-lg-tab-top-link,
+    .nav-tabs > li > button.s-lg-tab-top-link {
+        margin-right: 0px;
+    }
+
+    #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop,
+    #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-drop {
+        border-radius: 0;
+        padding: 4px 8px 4px 8px;
+        border-left: 1px solid transparent;
+        position: absolute;
+        right: 0;
+    }
+    #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover,
+    #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-drop:hover {
+        border-radius: 0;
+        border-left: 1px solid #bbb;
+        padding: 4px 8px 4px 8px;
+    }
+    #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+    #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover,
+    #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link,
+    #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link:hover {
+        width: 100%;
+        float: left;
+        border-radius: 0;
+        font-weight: bold;
+        padding: 4px 15px 4px 15px;
+    }
+.s-lib-box {
+    border-color: #ffffff;
+    border-width: 0px;
+    box-shadow: none;border-radius: 0;
+    background-color: #fff;
+}
+.s-lib-box-std .s-lib-box-title {
+    background-color: #ffffff;background-image: none;
+    color: #333333;
+    border-bottom: 0px solid #ffffff;
+}
+.s-lib-box .s-lib-box-title {
+    background-color: #ffffff;background-image: none;
+    color: #333333;
+    border-bottom: 0px solid #ffffff;;
+    border-radius: 0;
+}
+.s-lib-box .s-lg-box-footer {
+border-radius: 0;
+}
